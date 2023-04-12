@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste Yoga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div id="container">
+
+        <h1>🎋Your unique yoga package🎋</h1>
+        
+        <form >
+        <p>💚Practices💚 </p>
+        <button id="classes">Choose your yoga package</button><br>
+        
+        <select  id="yoga" ><option disabled selected>Select your option</option>
+            <option value="40.00">4 classes / $40.00</option>
+            <option value="70.00">8 classes/ $70.00</option>
+            <option value="100.00">12 classes/ $100.00 </option>
+            <option value="130.00" >16 classes / 130.00</option>
+        
+        
+        
+        </select>
+        
+        <p>💚 Add massage sessions to your package 💚</p>
+        
+        <button id="massages">Add your massage session</button><br>
+        
+        <select  id="yogaMassage" class="massage"><option disabled selected>Select your option</option>
+            <option value="50.00">Add 1 massage session $50/per hour</option>
+            <option value="30.00">Add 1 sound bath session $30/per hour</option>
+            <option value="60.00">Add 1 massage + 1 sound bath session 60/per hour </option>
+            <option value="0.00" >No, thank you!</option>
+        
+        
+        
+        </select>
+
+        <form >
+            <p>💛Donation to our local Animal Shelter💛</p>
+            <span>$ 
+                <input type="text" placeholder="Your Donation" id="donation">
+            </span>
+        <br><br>
+        <button id="btn">Your total is</button>
+        
+        </form>
+        
+        <div id="totalAmountToPay">
+        
+        
+            <div id="yogaPackage">
+                <p>Your yoga package</p>
+                <span>$</span>
+                <span id="totalYoga"></span>
+                
+            </div>
+        
+            <div id="massagePackage">
+                <p>Your massage package</p>
+                <span>$</span>
+                <span id="totalMassage"></span>
+                
+            </div>
+            <div id="yourDonation">
+                <p>Your Donation Amount</p>
+                <span>$</span>
+                <span id="totalDonation"></span>
+                
+            </div>
+        
+            <div id="total">
+                <p>Your total amount</p>
+                <span>$</span>
+                <span id="finalTotal"></span>
+                
+            </div>
+        
+        
+        </div>
+        
+        
+        
+            </div>
+        
+        
+        
+            <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
